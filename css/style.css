@@ -82,12 +82,38 @@
     padding: 40px 0;
   }
 
+.about {
+  padding: 5.5rem;
+}
+.about h2 {
+  display: inline-block;
+  padding: 1rem 0;
+  border-bottom: .5rem solid #ee4040;
+  margin-bottom: 1rem;
+}
+
+.fa {
+  transform: scale(2.2);
+  margin-left: 2rem;
+}
+.fa-facebook-square{
+  margin-left: 1rem;
+}
+.fa-instagram {
+  color: #ee4040;
+}
+.fa-youtube {
+  color: #f00c04;
+}
+.fa-twitter-square {
+  color: #13b6f7;
+}
   @media (max-width: 575.98px) {
     .description {
       left: 0;
       padding: 0 15px;
       position: absolute;
-      top: 10%;
+      top: 30%;
       transform: none;
       text-align: center;
     }
@@ -98,6 +124,9 @@
     
     .description p {
       font-size: 1.2rem;
+    }
+    .about {
+      padding: 1rem;
     }
     
   }
