@@ -5,7 +5,7 @@
 var nav_link = document.getElementsByClassName("nav-link");
 
 for(i = 0; i < nav_link.length; i++){
-    if(window.location.href.includes(nav_link.href)){
+    if(window.location.href.includes(nav_link[i].href)){
         nav_link[i].classList.add("active-link");
     }
 }
