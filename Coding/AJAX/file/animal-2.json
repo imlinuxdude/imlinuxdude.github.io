@@ -1,0 +1,26 @@
+[
+	{
+		"name": "jassiecat",
+		"species":"cat",
+		"food":{
+			"likes":["milk","banan juice","brade"],
+			"dislikes":["water"]
+		}
+	},
+	{
+		"name": "megridog",
+		"species":"dog",
+		"food":{
+			"likes":["meat","chicken","brade"],
+			"dislikes":["milk","juice"]
+		}
+	},
+	{
+		"name": "gammifox",
+		"species":"fox",
+		"food":{
+			"likes":["milk","juice","brade"],
+			"dislikes":["carrot"]
+		}
+	}
+]
