@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Brikacat",
+		"species":"cat",
+		"food":{
+			"likes":["milk","brade"],
+			"dislikes":["watermelon"]
+		}
+	},
+	{
+		"name": "Gugidog",
+		"species":"dog",
+		"food":{
+			"likes":["meat","chicken","brade"],
+			"dislikes":["milk"]
+		}
+	},
+	{
+		"name": "Tommyfox",
+		"species":"fox",
+		"food":{
+			"likes":["juice","brade"],
+			"dislikes":["carrot"]
+		}
+	}
+]
