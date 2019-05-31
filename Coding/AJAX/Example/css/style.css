@@ -1,0 +1,58 @@
+/*css*/
+*,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .4s;
+}
+.container {
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    background: rgba(243, 174, 174, 0.2);
+}
+
+.header {
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    height: calc(100vh - 2rem);
+    padding: 2rem 1rem;
+}
+
+.content p {
+    position: relative;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+button {
+    padding: .5rem 1rem;
+    background: rgb(3, 24, 212);
+    border: none;
+    border-radius: .2rem;
+    color: wheat;
+    cursor: pointer;
+}
+.content div {
+    margin-top: 2rem;
+}
+.content div > p {
+    background: white;
+    padding: .3rem 1rem;
+    display: block;
+    border-radius: 1rem;
+    margin-top: .3rem;
+}
+
+.hide-me {
+    opacity: 0;
+    visibility: hidden;
+}
