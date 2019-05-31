@@ -1,51 +1,103 @@
-/*css*/
 *,html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.container {
-    width: 100%;
-    max-width: 100%;
-    height: 100vh;
-    background: rgba(243, 174, 174, 0.2);
+    transition: .2s ease-in-out;
 }
 
-.header {
-    width: 100%;
-    height: 2rem;
-    text-align: center;
-    padding: 1rem 0;
-}
+.navbar {
+    background:#ee4040;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  .navbar-brand:hover {
+      color: #fff;
+      transform: scale(1.1);
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: rgb(20, 5, 1);
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
 
+  .site-logo {
+      width: 100%;
+      max-width: 2.1rem;
+  }
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
 .content {
     width: 100%;
-    position: relative;
-    height: calc(100vh - 2rem);
-    padding: 2rem 1rem;
+    max-width: 90%;
+    height:90vh;
 }
+.description {
+    left: 50%;
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h1 {
+    color: #ee4040;
+  }
+  .description p {
+    color: rgb(7, 6, 6);
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
 
-.content p {
-    position: relative;
-    display: inline-block;
-    margin-right: 2rem;
-}
+  .description button {
+    border:1px solid #ee4040;
+    background:#ee4040;
+    border-radius: 0;
+    color:#fff;
+    outline-color: 1px solid #ee4040;
+  }
+  .description button:hover {
+    border:1px solid #ee4040;
+    background:#fff;
+    color:#000;
+  }
+  .image-fluid {
+      max-width: 2rem;
+  }
+  .page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+  }
+  .footer-copyright {
+    color: #666;
+    padding: 40px 0;
+  }
 
-button {
-    padding: .5rem 1rem;
-    background: rgb(3, 24, 212);
-    border: none;
-    border-radius: .2rem;
-    color: wheat;
-    cursor: pointer;
-}
-.content div {
-    margin-top: 2rem;
-}
-.content div > p {
-    background: white;
-    padding: .3rem 1rem;
-    display: block;
-    border-radius: 1rem;
-}
+  @media (max-width: 575.98px) {
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
+    
+    .description h1 {
+      font-size: 2em;
+    }
+    
+    .description p {
+      font-size: 1.2rem;
+    }
+    
+  }
