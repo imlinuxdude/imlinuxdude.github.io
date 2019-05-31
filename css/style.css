@@ -22,7 +22,7 @@
   .nav-link {
     margin-right: 1em !important;
   }
-  .nav-link:hover {
+  .nav-link:hover ,.active-link{
     color: rgb(20, 5, 1);
   }
   .navbar-collapse {
