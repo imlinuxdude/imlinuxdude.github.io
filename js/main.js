@@ -14,10 +14,10 @@ for(i = 0; i < nav_link.length; i++){
     }
     
 }
-var counterId = 1;
-function counter(){
-    counter++;
-}
+var n = 10002;
 
-window.addEventListener("load",counter);
-document.getElementById("visitor").innerHTML = counterId;
+window.onload = function(){
+    n++;
+    localStorage.setItem("on_load_counter",n++);
+};
+document.getElementById("visitor").innerHTML = "Total Visitor : "+localStorage.getItem("on_load_counter");
