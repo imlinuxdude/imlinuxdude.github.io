@@ -1,0 +1,13 @@
+[
+  {
+    "category" : "Python",
+    "writer" : "Linux Dude",
+    "topic" : "How to create a GitHub Account?",
+    "content" : [
+      {
+        "para1" : "Hey, this is Linux Dude.",
+        "para2" : "Today we are going to create an account for GitHub."
+      }
+    ]
+  }
+]
