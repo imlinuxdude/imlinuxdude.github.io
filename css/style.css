@@ -180,3 +180,11 @@
       transform: scale(1.1);
     }
   }
+
+
+.counter {
+    padding:.5rem;
+    border-radius: 1rem;
+    background:#ee4040;
+    color:white;
+    font-size:.9rem;
