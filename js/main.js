@@ -12,4 +12,10 @@ for(i = 0; i < nav_link.length; i++){
         nav_link[0].classList.remove("active_link");
     }
 }
+var counterId = 1;
+function counter(){
+    counter++;
+}
 
+window.addEventListener("load",counter);
+document.getElementById("visitor").innerHTML = counterId;
