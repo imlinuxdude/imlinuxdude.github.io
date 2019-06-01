@@ -182,9 +182,12 @@
   }
 
 
-.counter {
-    padding:.5rem;
+  .counter {
+    padding: .5rem 1.2rem;
     border-radius: 1rem;
-    background:#ee4040;
-    color:white;
-    font-size:.9rem;
+    background: #ee4040;
+    font-size: .9rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+  }
