@@ -1,12 +1,23 @@
 [
   {
-    "category" : "Python",
+    "category" : "GitHub",
     "writer" : "Linux Dude",
     "topic" : "How to create a GitHub Account?",
     "content" : [
       {
         "para1" : "Hey, this is Linux Dude.",
         "para2" : "Today we are going to create an account for GitHub."
+      }
+    ]
+  },
+  {
+    "category" : "Python",
+    "writer" : "Linux Dude",
+    "topic" : "How to install Python on Linux S?",
+    "content" : [
+      {
+        "para1" : "Hey, this is Linux Dude.",
+        "para2" : "Let's install Python on Linux Distors, using simple way."
       }
     ]
   }
