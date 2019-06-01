@@ -3,7 +3,7 @@
     "category" : "GitHub",
     "writer" : "Linux Dude",
     "topic" : "How to create a GitHub Account?",
-    "link"  : "How-to-create-a-GitHub-Account.html"
+    "link"  : "How-to-create-a-GitHub-Account.html",
     "content" : [
       {
         "para1" : "Hey, this is Linux Dude.",
@@ -15,7 +15,7 @@
     "category" : "Python",
     "writer" : "Linux Dude",
     "topic" : "How to install Python on Linux OS?",
-    "link"  : "How-to-install-Python-on-Linux-OS.html"
+    "link"  : "How-to-install-Python-on-Linux-OS.html",
     "content" : [
       {
         "para1" : "Hey, this is Linux Dude.",
