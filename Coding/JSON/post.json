@@ -3,6 +3,7 @@
     "category" : "GitHub",
     "writer" : "Linux Dude",
     "topic" : "How to create a GitHub Account?",
+    "image" : "https://image.flaticon.com/icons/svg/25/25231.svg",
     "content" : [
       {
         "para1" : "Hey, this is Linux Dude.",
@@ -14,10 +15,23 @@
     "category" : "Python",
     "writer" : "Linux Dude",
     "topic" : "How to install Python on Linux OS?",
+    "image" : "https://qph.fs.quoracdn.net/main-qimg-28cadbd02699c25a88e5c78d73c7babc",
     "content" : [
       {
         "para1" : "Hey, this is Linux Dude.",
         "para2" : "Let's install Python on Linux Distors, using simple way."
+      }
+    ]
+  },
+  {
+    "category" : "Java",
+    "writer" : "Linux Dude",
+    "topic" : "How to install JAVA on Linux OS?",
+    "image" : "https://logoeps.com/wp-content/uploads/2011/06/java-logo-vector.png",
+    "content" : [
+      {
+        "para1" : "Hey, this is Linux Dude.",
+        "para2" : "Let's install JAVA on Linux Distors, using simple way."
       }
     ]
   }
