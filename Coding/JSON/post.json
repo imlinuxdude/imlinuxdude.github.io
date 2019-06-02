@@ -34,5 +34,29 @@
         "para2" : "Let's install JAVA on Linux Distors, using simple way."
       }
     ]
+  },
+  {
+    "category" : "JavaScript",
+    "writer" : "Linux Dude",
+    "topic" : "How to create first JavaScript program?",
+    "image" : "https://pbs.twimg.com/profile_images/378800000763343330/66ae3e3a553515bd727c129dd2e86216_400x400.png",
+    "content" : [
+      {
+        "para1" : "Hey, this is Linux Dude.",
+        "para2" : "Let's create a JavaScript program using notpad?"
+      }
+    ]
+  },
+  {
+    "category" : "Linux Commands",
+    "writer" : "Linux Dude",
+    "topic" : "Top 10 Linux Commands you must know.",
+    "image" : "https://fishshell.com/assets/img/screenshots/scripting.png",
+    "content" : [
+      {
+        "para1" : "Hey, this is Linux Dude.",
+        "para2" : "Ager to know top 10 Linux Commands today."
+      }
+    ]
   }
 ]
