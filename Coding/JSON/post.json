@@ -58,5 +58,29 @@
         "para2" : "Ager to know top 10 Linux Commands today."
       }
     ]
+  },
+  {
+    "category" : "GitHub",
+    "writer" : "Linux Dude",
+    "topic" : "How to create GitHub Respository?",
+    "image" : "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+    "content" : [
+      {
+        "para1" : "Hey, this is Linux Dude.",
+        "para2" : "Let's start your GitHub today, create a repository.
+      }
+    ]
+  },
+  {
+    "category" : "JavaScript",
+    "writer" : "Linux Dude",
+    "topic" : "Top 10 to functions you must know of JavaScript.",
+    "image" : "https://cdn.lynda.com/course/148137/148137-636022055561882181-16x9.jpg",
+    "content" : [
+      {
+        "para1" : "Hey, this is Linux Dude.",
+        "para2" : "Know about top 10 JavaScript functions to make better practice."
+      }
+    ]
   }
 ]
