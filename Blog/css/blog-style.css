@@ -208,7 +208,7 @@ margin-bottom: 1rem;
         z-index: 999;
     }
     .data {
-      width: calc(100% - 2rem);
+      width: calc(100% - 1rem);
     }
     .col p {
       width: 90%;
