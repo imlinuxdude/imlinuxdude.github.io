@@ -207,6 +207,9 @@ margin-bottom: 1rem;
         margin-left: 1rem;
         z-index: 999;
     }
+    .data {
+      width: calc(100% - 2rem);
+    }
     .col p {
       width: 90%;
       padding: .2rem .5rem;
