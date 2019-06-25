@@ -39,7 +39,7 @@
     top: 0;
     z-index: 999;
 }
-.content {
+.content{
     width: 100%;
     max-width: 90%;
     height:90vh;
@@ -85,16 +85,63 @@
     padding: 40px 0;
   }
 
-.about {
+.about{
   padding: 5.5rem;
+  padding-bottom: 0;
 }
-.about h2 {
+.about h2{
   display: inline-block;
   padding: 1rem 0;
   border-bottom: .5rem solid #ee4040;
   margin-bottom: 1rem;
 }
 
+.about  span {
+  padding: .2rem;
+  border-bottom: #ee4040 .01rem solid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: #ee4040;
+}
+a:hover {
+  animation: sakeit .5s;
+  text-decoration: none;
+  color: #ee4040;
+}
+@keyframes sakeit {
+  0%{
+    margin-left: .3rem;
+  }
+  20%{
+    margin-left: 0;
+  }
+  50%{
+    margin-left: -.2rem;
+  }
+  70%{
+    margin-left: 0;
+  }
+  90%{
+    margin-left: .5rem;
+    animation-delay: .3s; 
+  }
+  100%{
+    margin-left: 0;
+  }
+}
+a > i {
+  font-size: .7rem;
+  color: #ee4040;
+}
+.about span:hover {
+  box-shadow: 1px 2px 8px #ee4040;
+  border-bottom: none;
+  
+}
+.about ol {
+  margin-left: 5rem;
+}
 .fa {
   transform: scale(2.2);
   margin-left: 2rem;
@@ -120,17 +167,49 @@
   margin-top: 1.2rem;
   text-align: center;
   height: 12rem;
+  cursor: pointer;
 }
 .col img {
   width: 12rem;
   max-width: 100%;
 }
 .col:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   box-shadow: none;
 }
 .col a{
   text-decoration: none;
+}
+.gallery-cover {
+  padding: 0;
+  overflow: hidden;
+}
+.gallery-cover p {
+  position: absolute;
+  bottom: -10rem;
+  background: #ee4040;
+  padding: .2rem .5rem;
+  padding-top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-weight: 600;
+  width: 100%;
+
+}
+.gallery-cover img {
+  width: 100%;
+  max-width: 100%;
+}
+.gallery-cover:hover p{
+  box-shadow: 2px 2px 100px #ee4040;
+  bottom: -1rem;
+  width: 100%;
+  height: 40%;
+  text-align: center;
+}
+.gallery-cover:hover img {
+  filter: blur(7px) brightness(100);
 }
 .col a h3 {
   color: #f8f1f1;
@@ -140,6 +219,8 @@
   height: 100%;
   text-shadow: 0 1px 4px lightblue;
 }
+
+
   @media (max-width: 575.98px) {
     .description {
       left: 0;
@@ -179,9 +260,22 @@
     .col:hover {
       transform: scale(1.1);
     }
+    .gallery-cover {
+      width: 100%;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .about ol {
+      margin-left: 1rem;
+    }
   }
 
-
+  @media screen and (max-width:1370px){
+    .gallery-cover {
+      width: 80%;
+      max-width: 100%;
+    }
+  }
   .counter {
     padding: .5rem 1.2rem;
     border-radius: 1rem;
