@@ -97,16 +97,11 @@
 }
 
 .about  span {
-  padding: .2rem;
-  border-bottom: #ee4040 .01rem solid;
+  color: dodgerblue;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.about span:hover {
-  box-shadow: 1px 2px 8px #ee4040;
-  border-bottom: none;
-  
-}
+
 .about ol {
   margin-left: 5rem;
 }
