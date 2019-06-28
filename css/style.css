@@ -101,35 +101,6 @@
   border-bottom: #ee4040 .01rem solid;
   font-family: Arial, Helvetica, sans-serif;
 }
-a {
-  color: #ee4040;
-}
-a:hover {
-  animation: sakeit .5s;
-  text-decoration: none;
-  color: #ee4040;
-}
-@keyframes sakeit {
-  0%{
-    margin-left: .3rem;
-  }
-  20%{
-    margin-left: 0;
-  }
-  50%{
-    margin-left: -.2rem;
-  }
-  70%{
-    margin-left: 0;
-  }
-  90%{
-    margin-left: .5rem;
-    animation-delay: .3s; 
-  }
-  100%{
-    margin-left: 0;
-  }
-}
 
 .about span:hover {
   box-shadow: 1px 2px 8px #ee4040;
