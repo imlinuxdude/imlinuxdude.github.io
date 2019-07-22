@@ -1,0 +1,32 @@
+
+.img-hover:hover {
+	cursor:pointer;
+	opacity:0.5;
+	transition: .4s ease;
+}
+
+.top-right {
+	position:absolute;
+	top:5px;
+	right:20px;
+}
+
+#heading {
+	padding-bottom: 5px;
+}
+
+@media screen and (max-width:576px){
+	.col-sm-4 {
+		margin-top:10px;
+	}
+}
+
+.text-center:last-child {
+	margin-left:110px;
+}
+
+@media screen and (max-width:900px){
+	.text-center:last-child {
+		margin-left:0px;
+	}
+}
